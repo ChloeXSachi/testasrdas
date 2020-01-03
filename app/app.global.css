@@ -1,0 +1,20 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+/*@import '~@fortawesome/fontawesome-free/css/all.css';*/
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin:0;
+  padding:0;
+  color: black;
+  font-family: "Segoe UI",Arial, Helvetica, Helvetica Neue, serif;
+}
+
+.grouped-button-bottom-bar{
+  background: #EFEFEF;
+  border-top: 1px solid #9F9F9F;
+  text-align: right;
+  padding: 15px;
+}
